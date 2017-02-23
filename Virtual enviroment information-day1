@@ -1,0 +1,10 @@
+creating new Virtual Environment
+~~~virtualenv [dir name]
+#this is how to activate a virtenviro on windows
+cd dir name/Scripts
+activate
+#should have a <> worlde
+
+NOTE never save into Scripts always cd ..
+
+Always create a new directory for working in with git

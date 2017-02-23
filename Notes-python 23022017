@@ -1,0 +1,31 @@
+Python day 2 -23022017
+When setting up my directories
+Home
+  -virtal environments (for all my projects) folder
+    -project (it's own virt enviroment)
+      -git repo
+      -virtual enviro (info/version)
+##Dan says don't touch this shit!
+
+ when set up virtualenv need to designate a directory (eg data_manip2017)
+ then activate as discribed before
+
+ set up git repo - use web for this
+ then
+ git clone URL
+move to git repo
+then add requirements.txt file - which will have the list of all tools
+
+For data mani we added pandas, which contains numpy
+
+##Enviroments are set up
+##Working with the data - get data in/create data (sub)directory
+with a git ignore so the files wont be added to git with the code
+
+#Git ignore
+Go to https://github.com/github/gitignore/blob/master/Python.gitignore
+add dir that you would like to ignore eg data/
+save to the right directory and add dir
+to check run if git ignored run git status - should not appear at all "modified/untracked"
+
+##Note the git ignore also has lots of other files to ignore eg virtualenvi info which we are storing outside our git repo
